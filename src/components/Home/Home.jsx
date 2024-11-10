@@ -6,8 +6,8 @@ import "./Home.css";
 
 const Home = () => {
     const [category, setCategory] = useState("");
-    const [ setQuotes] = useQuotes();
-    const [ setIsSelected] = useState(false);
+    const [quotes, setQuotes] = useQuotes();
+    const [isSelected, setIsSelected] = useState(false);
 
     useEffect(() => {
         if(category !== "") {
