@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+:root {
+    --quote-font: "DM Serif Display", serif;
+    --heading-color: rgb(155, 87, 10);
+    --text-color: rgb(12, 12, 12);
+    --quote-text-color: rgb(189, 192, 186);
+    --main-color: rgb(30, 25, 32);
+    --border-radius: .3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+    width: .3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-track {
+    background-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-thumb {
+    background-color: rgb(45, 62, 73);
+    border-radius: 100vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-color: var(--main-color);
+}
+
+h1 {
+  color: var(--heading-color);
+}
+
+button, input[type=submit] {
+  cursor: pointer;
 }
