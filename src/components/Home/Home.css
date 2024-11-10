@@ -1,0 +1,40 @@
+.home-container {
+    padding-top: 3rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container > h1 {
+    font-family: var(--quote-font);
+    font-size: 3rem;
+}
+
+.home-container > p {
+    font-family: var(--quote-font);
+    color: var(--quote-text-color);
+    padding-bottom: 2rem;
+}
+
+.category {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem;
+    justify-content: center;
+}
+
+.category > input {
+    font-family: var(--quote-font);
+    background-color: transparent;
+    border: 1px solid var(--quote-text-color);
+    color: var(--quote-text-color);
+    border-radius: .3rem;
+    padding: .2rem 1rem;
+}
+
+.category > input:hover {
+    background-color: rgba(189, 192, 186, .15);
+}
