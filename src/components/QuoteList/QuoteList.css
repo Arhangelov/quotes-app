@@ -1,0 +1,60 @@
+.quote-list-container {
+    padding-top: 3rem;
+}
+
+.quote-card{
+    border: .9rem solid var(--heading-color);
+    background-color: rgba(189, 192, 186, .15);
+    border-radius: 1rem;
+    padding: 4rem 4rem 2rem 4rem;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    padding-bottom: 1rem;
+}
+
+blockquote p::before {
+    content: '\201C';
+    font-size: 3rem;
+    padding-right: .6rem;
+}
+
+blockquote p::after {
+    content: '\201D';
+    font-size: 3rem;
+    padding-left: .6rem;
+
+}
+
+.text {
+    color: var(--quote-text-color);
+    font-family: var(--quote-font);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.quote-card > cite {
+    align-self: flex-end;
+    color: var(--quote-text-color);
+    font-family: var(--quote-font);
+    font-weight: 400;
+    color: var();
+}
+
+.btn {
+    background-color: transparent;
+    color: var(--quote-text-color);
+    border: none;
+    font-size: 1.5rem;
+    align-self: flex-end;
+    padding-top: 2rem;
+}
+
+/* .btn:hover {
+    background-color: ;
+} */
