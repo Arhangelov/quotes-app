@@ -55,6 +55,6 @@ blockquote p::after {
     padding-top: 2rem;
 }
 
-/* .btn:hover {
-    background-color: ;
-} */
+.btn:hover {
+    color: rgb(255, 255, 255);
+}

@@ -37,4 +37,5 @@
 
 .category > input:hover {
     background-color: rgba(189, 192, 186, .15);
+    color: rgb(255, 255, 255);
 }
